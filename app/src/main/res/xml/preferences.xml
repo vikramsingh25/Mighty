@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="Equalizer"
+        android:summary="Adjust Audio Settings">
+        <intent android:action="android.media.action.DISPLAY_AUDIO_EFFECT_CONTROL_PANEL"/>
+    </Preference>
+
+    <!--<SwitchPreference android:title="Voice Recognition"-->
+        <!--android:id="@+id/pref_voice_enable_disable"-->
+        <!--android:summary="Enabled"-->
+        <!--android:key="Voice_on_off"-->
+        <!--android:defaultValue="true"/>-->
+
+    <!--<Preference android:title="Clear Cache"-->
+        <!--android:fragment="com.example.sankalp.muxicplayer.dialogs.ClearCacheDialog">-->
+        <!--<intent android:targetClass="ClearCacheDialog"/>-->
+    <!--</Preference>-->
+
+    <!--<ListPreference android:title="Theme"-->
+        <!--android:dialogTitle="Select Theme"-->
+        <!--android:key="@string/theme_setting_key"-->
+        <!--android:entryValues="@array/theme_value"-->
+        <!--android:entries="@array/themes"-->
+        <!--android:defaultValue="Theme1"-->
+        <!--android:summary="Theme1"/>-->
+
+</PreferenceScreen>

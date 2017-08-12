@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:orientation="vertical"
+    android:layout_marginRight="16dp"
+    tools:context="com.example.sankalp.muxicplayer.fragments.NavigationFragment">
+
+    <include
+        android:id="@+id/nav_head"
+        layout="@layout/nav_header" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:id="@+id/nav_recycler_view">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

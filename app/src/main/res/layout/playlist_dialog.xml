@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Playlist"
+        android:layout_gravity="center_horizontal"
+        android:textSize="26sp"
+        android:textColor="#000"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:hint="Name"
+        android:singleLine="true"
+        android:textSize="24sp"
+        android:id="@+id/play_list_title" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#f00"
+        android:layout_marginTop="8dp"
+        android:id="@+id/playlist_error"
+        android:textSize="14sp"
+        android:text="@string/playlist_name_empty"
+        android:visibility="gone"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:hint="Description"
+        android:textSize="24sp"
+        android:layout_marginBottom="8dp"
+        android:id="@+id/play_list_description" />
+</LinearLayout>

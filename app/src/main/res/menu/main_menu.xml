@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<!--<item android:id="@+id/actionSearch"-->
+    <!--android:title="@string/item_search"-->
+    <!--android:icon="@drawable/ic_menu_search"-->
+    <!--app:showAsAction="always|collapseActionView"-->
+    <!--android:actionViewClass="android.support.v7.widget.SearchView"/>-->
+    <!--<item android:id="@+id/actionShuffle"-->
+        <!--android:title="@string/item_shuffle"-->
+        <!--app:showAsAction="always|collapseActionView"/>-->
+
+    <!--<item android:id="@+id/actionVoice"-->
+        <!--android:title="@string/voice"-->
+        <!--android:icon="@drawable/mic"-->
+        <!--app:showAsAction="ifRoom"/>-->
+
+</menu>

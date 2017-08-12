@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+        <item android:title="Play"
+            android:id="@+id/album_action_shuffle"
+            app:showAsAction="never"/>
+        <item android:title="Edit Name"
+            android:id="@+id/album_action_play_next"
+            app:showAsAction="never"/>
+        <item android:title="Remove Playlist"
+            android:id="@+id/album_action_add_to_queue"
+            app:showAsAction="never"/>
+    </menu>

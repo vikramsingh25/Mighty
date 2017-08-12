@@ -1,0 +1,5 @@
+#JSGF V1.0;
+
+grammar mighty;
+
+public <controls> = next | previous | play | pause | stop;
